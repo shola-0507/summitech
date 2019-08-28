@@ -25,6 +25,6 @@ function getSmallestNumberOfSwapsPossible (list=[]) {
     return {swaps, list}
 }
 
-getSmallestNumberOfSwapsPossible(list) // should return {swaps: 2, list: [1, 2, 3, 5]
+getSmallestNumberOfSwapsPossible(list) // should return {swaps: 2, list: [1, 2, 3, 5]}
 
 
