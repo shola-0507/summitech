@@ -2,7 +2,6 @@ const list = [1, 3, 5, 2]
 
 function getSmallestNumberOfSwapsPossible (list=[]) {
     let arr = [...list]
-    arr.sort()
     let swaps= 0
     let min = Math.min(...list)
     let current_pos = 0
